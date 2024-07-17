@@ -2,6 +2,8 @@
 
 ![DMS](metrics/val_batch2_pred.jpg)
 
+![DMS](metrics/results.png)
+
 ### Training Losses:
 
 train/box_loss: This loss measures the error in predicting the bounding boxes. The curve shows a steady decrease, indicating that the model is learning to predict bounding boxes more accurately over time.
