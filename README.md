@@ -29,12 +29,12 @@ metrics/mAP50-95(B): Mean Average Precision across multiple IoU thresholds from 
    yolo task=detect mode=predict model=models/best.pt source=drowsiness.mp4
    ```
 
-   ![Loss plot1](metric/P_curve.png)
+![Loss plot1](metric/P_curve.png)
 
 ![Loss plot2](metric/confusion_matrix_normalized.png)
 
-![Loss plot3](metric/val_batch1_labels)
+![Loss plot3](metric/val_batch1_labels.jpg)
 
-![Loss plot4](metric/val_batch2_pred)
+![Loss plot4](metric/val_batch2_pred.jpg)
 
-![Loss plot5](metric/val_batch2_labels)
+![Loss plot5](metric/val_batch2_labels.jpg)
