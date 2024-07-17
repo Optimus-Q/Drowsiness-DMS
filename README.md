@@ -1,6 +1,6 @@
 # Drowsiness detection for DMS using Yolo V8
 
-![DMS](output/val_batch2_pred)
+![DMS](metrics/val_batch2_pred.jpg)
 
 ### Training Losses:
 
@@ -29,12 +29,12 @@ metrics/mAP50-95(B): Mean Average Precision across multiple IoU thresholds from 
    yolo task=detect mode=predict model=models/best.pt source=drowsiness.mp4
    ```
 
-![Loss plot1](metric/P_curve.png)
+![Loss plot1](metrics/P_curve.png)
 
-![Loss plot2](metric/confusion_matrix_normalized.png)
+![Loss plot2](metrics/confusion_matrix_normalized.png)
 
-![Loss plot3](metric/val_batch1_labels.jpg)
+![Loss plot3](metrics/val_batch1_labels.jpg)
 
-![Loss plot4](metric/val_batch2_pred.jpg)
+![Loss plot4](metrics/val_batch2_pred.jpg)
 
-![Loss plot5](metric/val_batch2_labels.jpg)
+![Loss plot5](metrics/val_batch2_labels.jpg)
